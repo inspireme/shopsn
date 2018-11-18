@@ -64,7 +64,7 @@
 	<span class="left">
 	    <input id='agree'  name="" type="checkbox" value="" checked='checked'>
 	</span>
-            <span class="left">我已经阅读并同意此协议（请使用Apache服务器）</span>
+            <span class="left">我已经阅读并同意此协议(请使用Apache服务器)</span>
             <a id='next' href="<?php echo U('stepTwo');?>" class="under-Button left" style='cursor:pointer' >下一步</a>
         </div>
     </div>

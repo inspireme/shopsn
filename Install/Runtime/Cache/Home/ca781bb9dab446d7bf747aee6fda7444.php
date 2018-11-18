@@ -23,8 +23,8 @@
       </tr>
     <tr>
       <td height="30"  align="right" >&nbsp;</td>
-      <td class="gray">为了您站点安全，安装完成后即可将网站根上当的：install文件夹删除，或者/install/目录下的<br>
-        install.lock文件防止重复安装。</td>
+        <td class="gray">请在/install/目录下保留或创建install.lock文件防止重复安装。<br>
+        </td>
       </tr>
     <tr>
       <td height="30"  align="right" >&nbsp;</td>
@@ -40,7 +40,7 @@
   
   <script type="text/javascript" src="/Public/Install/js/index.js"></script>
  <div class="bottom  width center">
-  <p>ShopsN开源商城官网     ShopsN开源商城论坛</p>
+  <p><a href="http://www.shopsn.net" target="view_window" >ShopsN开源商城官网</a> </p>
   <p> Powered by ShopsN开源商城 B2C单商户版   www.shopsn.net </p>
 </div>
 </div>

@@ -110,7 +110,7 @@
   
   <script type="text/javascript" src="/Public/Install/js/index.js"></script>
  <div class="bottom  width center">
-  <p>ShopsN开源商城官网     ShopsN开源商城论坛</p>
+  <p><a href="http://www.shopsn.net" target="view_window" >ShopsN开源商城官网</a> </p>
   <p> Powered by ShopsN开源商城 B2C单商户版   www.shopsn.net </p>
 </div>
 </div>
