@@ -1,0 +1,48 @@
+= Shopsn B2C电商系统
+
+. http://www.shopsn.net[官网地址]
+. http://www.shopsn.net/doc/home/article/index/category/blog.html[文档地址]
+. https://pan.baidu.com/s/1c3L1kfm#list/path=%2F[源码地址]
+
+== 使用PhpStorm
+
+
+== 同步至GitHub
+* https://pan.baidu.com/s/1c3L1kfm#list/path=%2FShopsN%2FShopsN%E5%8D%95%E5%95%86%E6%88%B7B2C%E5%95%86%E5%9F%8E%E7%B3%BB%E7%BB%9F%2FShopsN2.3.6%E5%AE%8C%E6%95%B4%E7%89%88[下载ShopsN-2.3.6.zip]
+* 存放在
+
+== mysql
+.配置文件位置
+. /etc/my.cnf
+. /etc/mysql/my.cnf
+. /usr/local/etc/my.cnf
+. ~/.my.cnf
+
+.查看``sql_mode``
+* select @@sql_mode;
+* ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+
+.修改``sql_mode``
+----
+./etc/mysql/my.cnf
+[mysqld]
+sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'
+----
+
+== php.ini
+.配置文件位置
+. /etc/php.ini.default
+. /usr/local/etc/php/5.6/php.ini
+
+``always_populate_raw_post_data=-1``
+
+== 手机号注册？
+验证码？
+
+== 菜单分类
+
+== 广告管理
+=== 广告位置
+.PC首页 广告2
+
+
